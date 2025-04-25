@@ -1,0 +1,134 @@
+{
+      "grupos": {
+            "comidas": {
+                  "nombre": {
+                        "es": "Comidas",
+                        "en": "Food"
+                  }
+            },
+            "bebidas": {
+                  "nombre": {
+                        "es": "Bebidas",
+                        "en": "Drinks"
+                  }
+            }
+      },
+      "secciones": {
+            "frias": {
+                  "nombre": {
+                        "es": "Frías",
+                        "en": "Cold"
+                  }
+            },
+            "calientes": {
+                  "nombre": {
+                        "es": "Calientes",
+                        "en": "Hot"
+                  }
+            },
+            "cervezas": {
+                  "nombre": {
+                        "es": "Cervezas",
+                        "en": "Beers"
+                  }
+            },
+            "refrescos": {
+                  "nombre": {
+                        "es": "Refrescos",
+                        "en": "Soft Drinks"
+                  }
+            }
+      },
+      "items": {
+            "ensalada": {
+                  "nombre": {
+                        "es": "Ensalada",
+                        "en": "Salad"
+                  },
+                  "descripcion": {
+                        "es": "Ensalada fresca con lechuga, tomate y aderezo",
+                        "en": "Fresh salad with lettuce, tomato and dressing"
+                  }
+            },
+            "sopa": {
+                  "nombre": {
+                        "es": "Sopa",
+                        "en": "Soup"
+                  },
+                  "descripcion": {
+                        "es": "Sopa caliente de pollo con fideos",
+                        "en": "Hot chicken soup with noodles"
+                  }
+            },
+            "pizza": {
+                  "nombre": {
+                        "es": "Pizza",
+                        "en": "Pizza"
+                  },
+                  "descripcion": {
+                        "es": "Pizza de pepperoni con queso",
+                        "en": "Pepperoni pizza with cheese"
+                  }
+            },
+            "hamburguesa": {
+                  "nombre": {
+                        "es": "Hamburguesa",
+                        "en": "Burger"
+                  },
+                  "descripcion": {
+                        "es": "Hamburguesa con carne, lechuga y tomate",
+                        "en": "Burger with meat, lettuce and tomato"
+                  }
+            },
+            "estrella": {
+                  "nombre": {
+                        "es": "Estrella",
+                        "en": "Estrella"
+                  },
+                  "descripcion": ""
+            },
+            "corona": {
+                  "nombre": {
+                        "es": "Corona",
+                        "en": "Corona"
+                  },
+                  "descripcion": ""
+            },
+            "coca_cola": {
+                  "nombre": {
+                        "es": "Coca Cola",
+                        "en": "Coca Cola"
+                  },
+                  "descripcion": ""
+            },
+            "fanta": {
+                  "nombre": {
+                        "es": "Fanta",
+                        "en": "Fanta"
+                  },
+                  "descripcion": ""
+            }
+      },      
+      "menu": {
+            "titulo": {
+                  "es": "Menú",
+                  "en": "Menu"
+            },
+            "descripcion": {
+                  "es": "Descripción",
+                  "en": "Description"
+            },
+            "precio": {
+                  "es": "Precio",
+                  "en": "Price"
+            },
+            "grupo": {
+                  "es": "Grupo",
+                  "en": "Group"
+            },
+            "seccion": {
+                  "es": "Sección",
+                  "en": "Section"
+            }
+      }
+}

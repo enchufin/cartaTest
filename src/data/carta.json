@@ -1,0 +1,96 @@
+{
+      "grupos": [
+            {
+                  "id": "comidas",
+                  "nombre": "Comidas",
+                  "secciones": [
+                        "frias",
+                        "calientes"
+                  ]
+            },
+            {
+                  "id": "bebidas",
+                  "nombre": "Bebidas",
+                  "secciones": [
+                        "refrescos",
+                        "cervezas"
+                  ]
+            }
+      ],
+      "secciones": [
+            {
+                  "id": "frias",
+                  "nombre": "Frías",
+                  "items": [
+                        "ensalada",
+                        "sopa"
+                  ]
+            },
+            {
+                  "id": "calientes",
+                  "nombre": "Calientes",
+                  "items": [
+                        "pizza",
+                        "hamburguesa"
+                  ]
+            },
+            {
+                  "id": "cervezas",
+                  "nombre": "Cervezas",
+                  "items": [
+                        "estrella",
+                        "corona"
+                  ]
+            },
+            {
+                  "id": "refrescos",
+                  "nombre": "Refrescos",
+                  "items": [
+                        "coca_cola",
+                        "fanta"
+                  ]
+            }
+      ],
+      "items": [
+            {
+                  "id": "ensalada",
+                  "nombre": "Ensalada",
+                  "precio": 5.00
+            },
+            {
+                  "id": "sopa",
+                  "nombre": "Sopa",
+                  "precio": 4.50
+            },
+            {
+                  "id": "pizza",
+                  "nombre": "Pizza",
+                  "precio": 8.00
+            },
+            {
+                  "id": "hamburguesa",
+                  "nombre": "Hamburguesa",
+                  "precio": 7.50
+            },
+            {
+                  "id": "estrella",
+                  "nombre": "Estrella",
+                  "precio": 3.00
+            },
+            {
+                  "id": "corona",
+                  "nombre": "Corona",
+                  "precio": 3.50
+            },
+            {
+                  "id": "fanta",
+                  "nombre": "Fanta",
+                  "precio": 2.00
+            },
+            {
+                  "id": "coca_cola",
+                  "nombre": "Coca Cola",
+                  "precio": 2.50
+            }
+      ]
+}
