@@ -1,0 +1,95 @@
+{
+      "comidas": {
+            "frias": {
+                  "ensalada": {
+                        "tipo": "fijo",
+                        "precio": 5.00
+                  },
+                  "sopa": {
+                        "tipo": "fijo",
+                        "precio": 4.50
+                  }
+            },
+            "calientes": {
+                  "pizza": {
+                        "tipo": "fijo",
+                        "precio": 8.00
+                  },
+                  "hamburguesa": {
+                        "tipo": "fijo",
+                        "precio": 7.50
+                  },
+                  "merluza": {
+                        "tipo": "variable",
+                        "precio": "S.M."
+                  }
+            }
+      },
+      "bebidas": {
+            "refrescos": {
+                  "fanta": {
+                        "tipo": "fijo",
+                        "precio": 2.00
+                  },
+                  "coca_cola": {
+                        "tipo": "fijo",
+                        "precio": 2.50
+                  }
+            },
+            "cervezas": {
+                  "estrella": {
+                        "tipo": "formato",
+                        "formato": [
+                              {
+                                    "id": "copa",
+                                    "precio": 2.50
+                              },
+                              {
+                                    "id": "botella",
+                                    "precio": 3.00
+                              }
+                        ]
+                  },
+                  "corona": {
+                        "tipo": "fijo",
+                        "precio": 3.50
+                  }
+            },
+            "whiskies": {
+                  "jb": {
+                        "tipo": "formato",
+                        "formato": [
+                              {
+                                    "id": "chupito",
+                                    "precio": 3.50
+                              },
+                              {
+                                    "id": "copa",
+                                    "precio": 4.00
+                              },
+                              {
+                                    "id": "combinado",
+                                    "precio": 7.00
+                              }
+                        ]
+                  },
+                  "jameson": {
+                        "tipo": "formato",
+                        "formato": [
+                              {
+                                    "id": "chupito",
+                                    "precio": 4.00
+                              },
+                              {
+                                    "id": "copa",
+                                    "precio": 5.00
+                              },
+                              {
+                                    "id": "combinado",
+                                    "precio": 8.00
+                              }
+                        ]
+                  }
+            }
+      }
+}

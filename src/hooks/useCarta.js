@@ -1,7 +1,7 @@
-import { useIdioma } from '@contexts/IdiomaContext'; 
+import { useIdioma } from '@hooks'; 
 import carta from '@data/carta.json'
 
-export const useCarta = () => {
+const useCarta = () => {
   const { traduce } = useIdioma();
   
   const getTraduccion = (tipo, id, campo = 'nombre') => {
@@ -59,7 +59,7 @@ export const useCarta = () => {
   return { listaGrupos, useGrupo, useSeccion, useItem };
 };
 
-
+export default useCarta;
 
 
 

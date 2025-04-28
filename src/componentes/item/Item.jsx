@@ -1,10 +1,10 @@
-import {useCarta} from '@hooks/useCarta';
-import { useIdioma } from '@contexts/IdiomaContext';
+import {useCarta} from '@hooks';
+import {PrecioItem} from '@item';
 
-const Item = ({ itemId }) => {
+const Item = ({ grupoId, seccionId, itemId }) => {
       const { useItem } = useCarta();
       const item = useItem(itemId);
-      const { traduce } = useIdioma();
+      //const { traduce } = useIdioma();
 
       if (!item) return null;
       
@@ -12,8 +12,15 @@ const Item = ({ itemId }) => {
             <div className="item">
                   <h4>{item?.nombre}</h4>
                   {item?.descripcion && <p>{item.descripcion}</p>}
-                  <p>{traduce('menu.precio')}: {item.precio?.toFixed(2)}€</p>
-                  {/* item?.imagen && <img src={item.imagen} alt={item.nombre} /> */}
+                  <PrecioItem 
+                        itemId={itemId} 
+                        grupoId={grupoId}
+                        seccionId={seccionId}
+                  />
+                  {/*
+                   <p>{traduce('menu.precio')}: {item.precio?.toFixed(2)}€</p>
+                   item?.imagen && <img src={item.imagen} alt={item.nombre} /> 
+                  */}
             </div>
       );
 }

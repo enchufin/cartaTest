@@ -1,4 +1,4 @@
-import { useCarta } from '@hooks/useCarta';
+import { useCarta } from '@hooks';
 import { Seccion } from '@componentes/seccion';
 
 const Grupo = ({ grupoId }) => {
@@ -11,7 +11,11 @@ const Grupo = ({ grupoId }) => {
     <div>
       <h2>{grupo?.nombre}</h2>
       {grupo?.secciones.map(seccionId => (
-        <Seccion key={seccionId} seccionId={seccionId} />
+        <Seccion 
+          key={seccionId}  
+          grupoId={grupoId}
+          seccionId={seccionId} 
+        />
       ))}
     </div>
   );

@@ -1,4 +1,4 @@
-import { useCarta } from '@hooks/useCarta';
+import { useCarta } from '@hooks';
 import { Idioma } from '@componentes/navegador';
 
 const NavPrincipal = ({ grupoActivo, setGrupoActivo }) => {

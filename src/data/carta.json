@@ -13,7 +13,8 @@
                   "nombre": "Bebidas",
                   "secciones": [
                         "refrescos",
-                        "cervezas"
+                        "cervezas",
+                        "whiskies"
                   ]
             }
       ],
@@ -31,7 +32,16 @@
                   "nombre": "Calientes",
                   "items": [
                         "pizza",
-                        "hamburguesa"
+                        "hamburguesa",
+                        "merluza"
+                  ]
+            },
+            {
+                  "id": "refrescos",
+                  "nombre": "Refrescos",
+                  "items": [
+                        "fanta",
+                        "coca_cola"
                   ]
             },
             {
@@ -43,54 +53,57 @@
                   ]
             },
             {
-                  "id": "refrescos",
-                  "nombre": "Refrescos",
+                  "id": "whiskies",
+                  "nombre": "Whiskies",
                   "items": [
-                        "coca_cola",
-                        "fanta"
+                        "jb",
+                        "jameson"
                   ]
-            }
-      ],
+            }],
       "items": [
             {
                   "id": "ensalada",
-                  "nombre": "Ensalada",
-                  "precio": 5.00
+                  "nombre": "Ensalada"
             },
             {
                   "id": "sopa",
-                  "nombre": "Sopa",
-                  "precio": 4.50
+                  "nombre": "Sopa"
             },
             {
                   "id": "pizza",
-                  "nombre": "Pizza",
-                  "precio": 8.00
+                  "nombre": "Pizza"
             },
             {
                   "id": "hamburguesa",
-                  "nombre": "Hamburguesa",
-                  "precio": 7.50
+                  "nombre": "Hamburguesa"
+            },
+            {
+                  "id": "merluza",
+                  "nombre": "Merluza"
+            },
+            {
+                  "id": "jb",
+                  "nombre": "JB"
+            },
+            {
+                  "id": "jameson",
+                  "nombre": "Jameson"
             },
             {
                   "id": "estrella",
-                  "nombre": "Estrella",
-                  "precio": 3.00
+                  "nombre": "Estrella"
             },
             {
                   "id": "corona",
-                  "nombre": "Corona",
-                  "precio": 3.50
+                  "nombre": "Corona"
             },
             {
                   "id": "fanta",
-                  "nombre": "Fanta",
-                  "precio": 2.00
+                  "nombre": "Fanta"
             },
             {
                   "id": "coca_cola",
-                  "nombre": "Coca Cola",
-                  "precio": 2.50
+                  "nombre": "Coca Cola"
             }
       ]
 }

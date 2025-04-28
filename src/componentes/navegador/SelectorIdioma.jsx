@@ -1,4 +1,4 @@
-import { useIdioma } from '@contexts/IdiomaContext';
+import { useIdioma } from '@hooks';
 
 const SelectorIdioma = () => {
   const { idiomaActual, cambioDeIdioma } = useIdioma();

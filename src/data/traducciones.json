@@ -37,6 +37,12 @@
                         "es": "Refrescos",
                         "en": "Soft Drinks"
                   }
+            },
+            "whiskies": {
+                  "nombre": {
+                        "es": "Whiskies",
+                        "en": "Whiskies"
+                  }
             }
       },
       "items": {
@@ -80,6 +86,16 @@
                         "en": "Burger with meat, lettuce and tomato"
                   }
             },
+            "merluza": {
+                  "nombre": {
+                        "es": "Merluza",
+                        "en": "Hake"
+                  },
+                  "descripcion": {
+                        "es": "Merluza a la plancha con guarnición",
+                        "en": "Grilled hake with garnish"
+                  }
+            },
             "estrella": {
                   "nombre": {
                         "es": "Estrella",
@@ -91,6 +107,20 @@
                   "nombre": {
                         "es": "Corona",
                         "en": "Corona"
+                  },
+                  "descripcion": ""
+            },
+            "jb": {
+                  "nombre": {
+                        "es": "JB",
+                        "en": "JB"
+                  },
+                  "descripcion": ""
+            },
+            "jameson": {
+                  "nombre": {
+                        "es": "Jameson",
+                        "en": "Jameson"
                   },
                   "descripcion": ""
             },
@@ -129,6 +159,38 @@
             "seccion": {
                   "es": "Sección",
                   "en": "Section"
+            }
+      },
+      "formato": {
+            "chupito": {
+                  "nombre": {
+                        "es": "Chupito",
+                        "en": "Shot"
+                  }
+            },
+            "copa": {
+                  "nombre": {
+                        "es": "Copa",
+                        "en": "Glass"
+                  }
+            },
+            "botella": {
+                  "nombre": {
+                        "es": "Botella",
+                        "en": "Bottle"
+                  }
+            },
+            "combinado": {
+                  "nombre": {
+                        "es": "Combinado",
+                        "en": "Mixed"
+                  }
+            }
+      },
+      "variable":{
+            "nombre":{
+                  "es": "Según Mercado",
+                  "en": "Market Price"
             }
       }
 }

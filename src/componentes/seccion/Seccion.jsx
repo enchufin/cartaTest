@@ -1,7 +1,7 @@
-import { useCarta } from '@hooks/useCarta';
+import { useCarta } from '@hooks';
 import {Item} from '@componentes/item';
 
-const Seccion = ({ seccionId }) => {
+const Seccion = ({ grupoId, seccionId }) => {
   const { useSeccion } = useCarta();
   const seccion = useSeccion(seccionId);
 
@@ -10,7 +10,11 @@ const Seccion = ({ seccionId }) => {
       <h3>{seccion?.nombre}</h3>
       <div className="items">
             {seccion?.items?.map(item => (
-                  <Item key={item.id} itemId={item.id}/>
+                  <Item 
+                    key={item.id} 
+                    grupoId={grupoId}
+                    seccionId={seccionId}
+                    itemId={item.id}/>
             ))}      
       </div>
     </div>
